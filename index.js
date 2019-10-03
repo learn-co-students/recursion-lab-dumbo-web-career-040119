@@ -15,10 +15,10 @@ function printString(myString) {
 //   return str.split("").reverse().join("");
 // }
 
-function reverseString(myString) {
-  if (myString.length < 2) {
-    return myString;
+function reverseString(str) {
+  if (str.length < 2) {
+    return str;
   } else {
-    return reverseString(myString.substring(1)) + myString[0];
+    return reverseString(str.substring(1)) + str[0];
   }
 }
