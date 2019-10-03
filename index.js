@@ -10,3 +10,15 @@ function printString(myString) {
     return true;
   }
 }
+
+// function reverseString(str) {
+//   return str.split("").reverse().join("");
+// }
+
+function reverseString(myString) {
+  if (myString.length < 2) {
+    return myString;
+  } else {
+    return reverseString(myString.substring(1)) + myString[0];
+  }
+}
