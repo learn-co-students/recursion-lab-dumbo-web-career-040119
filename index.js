@@ -11,9 +11,9 @@ function printString(myString) {
   }
 }
 
-// function reverseString(str) {
-//   return str.split("").reverse().join("");
-// }
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
 
 function reverseString(myString) {
   if (myString.length < 2) {
